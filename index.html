@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- link for font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- link for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row-one">
+        <h1>Please Login to Continue</h1>
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <div class="container-two">
+        <div class="container-three">
+          <div class="row">
+            <div class="col sign-in">Sign In</div>
+            <div class="col sign-up">Sign Up</div>
+          </div>
+          <form action="post">
+            <div class="username">
+              <i class="fa fa-user-circle" aria-hidden="true"></i>
+              <input type="text" placeholder="Username or email" />
+            </div>
+            <div class="password">
+              <i class="fa fa-lock" aria-hidden="true"></i>
+
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="checkbox">
+              <div><input type="checkbox" /> <label>Remember Me</label></div>
+              <a href="#">Forgot Password</a>
+            </div>
+            <button type="button" class="sign-in-btn">Sign In</button>
+            <div class="button-line">
+              <div class="google">
+                <button type="button">
+                  <i class="fa fa-google" aria-hidden="true"></i>Google
+                </button>
+              </div>
+              <div class="facebook">
+                <button type="button">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>Facebook
+                </button>
+              </div>
+            </div>
+            <div class="button-line">
+              <div class="linkedin">
+                <button type="button">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>Linked In
+                </button>
+              </div>
+              <div class="github">
+                <button type="button">
+                  <i class="fa fa-github" aria-hidden="true"></i>Github
+                </button>
+              </div>
+            </div>
+          </form>
+          <a class="why" href="#">Why Create and Account?</a>
+          <p>
+            By creating this account, you agree to our
+            <a href="#" class="green">Privacy Policy</a> &
+            <a href="#" class="green">Cookie Policy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/da3fc46332.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

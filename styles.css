@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  border: none;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 9rem auto;
+  background-color: #eff1f3;
+  border-radius: 5px;
+  width: 40vw;
+  height: 45rem;
+}
+
+.container-two {
+  background-color: white;
+  border-radius: 5px;
+  width: 35vw;
+  height: 39rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-three {
+  border: 1px solid #cfd2d4;
+
+  width: 33vw;
+  height: 37rem;
+}
+
+h1 {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.fa-times {
+  color: grey;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-one {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  padding: 1rem 5.43rem;
+  color: rgb(52, 51, 51);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.sign-in {
+  border-top: 3px solid green;
+}
+
+.sign-up {
+  border-top: 3px solid #e3e5e7;
+  background-color: #e3e5e7;
+  color: rgb(157, 153, 153);
+}
+
+.fa-user-circle,
+.fa-lock {
+  color: grey;
+  font-size: 1.3rem !important;
+}
+
+.username,
+.password {
+  padding: 1rem 2rem;
+  border: 1px gray solid;
+  border-radius: 3px;
+  margin: 1rem 2rem;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+.sign-in-btn {
+  margin: 1rem 2rem;
+  padding: 1rem 10.9rem;
+  color: white;
+  background-color: #12a112;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid #0f850f;
+  border-radius: 2px;
+}
+
+.google,
+.facebook,
+.linkedin,
+.github {
+  background-color: #cd2929;
+  padding: 1rem 3rem;
+}
+
+.button-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+button {
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.google button,
+.google {
+  background-color: #cd2929;
+}
+
+.facebook button,
+.facebook {
+  background-color: #3b5998;
+}
+
+.linkedin button,
+.linkedin {
+  background-color: #075b8c;
+}
+
+.github button,
+.github {
+  background-color: #191717;
+}
+
+.why {
+  color: green;
+  text-decoration: none;
+  margin: 9rem;
+}
+
+.why:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 1rem 3.55rem;
+  font-size: 0.7rem;
+}
+
+.green {
+  color: green;
+}
